@@ -10,6 +10,8 @@ def arithmetic_arranger(problems, showAns = False):
     dashLine = ""
     answerLine = ""
 
+    # creating the artimetic strings:
+
     arranged_problems = []
     for i, problem in enumerate(problems):
       x = problem.split()
